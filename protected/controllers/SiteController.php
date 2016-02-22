@@ -12,8 +12,8 @@ public $bookModel=null;
 public $nested;
 public $h1='Готові домашні завдання для ';
 public $param;
-public $keywords='готові домашні завдання, гдз, гдз онлайн, гдз україна, гдз решебники, gdz';
-public $description='ГДЗ - готові домашні завдання онлайн, для середніх загальноосвітніх шкіл України.';
+public $keywords='готові домашні завдання, гдз, гдз онлайн, гдз україна, гдз решебники, gdz, підручники онлайн';
+public $description='ГДЗ, готові домашні завдання, підручники онлайн';
 
 
 
@@ -85,7 +85,9 @@ public function actionIndex(){
 			$page = '';
 		}
 
-		$this->pageTitle = 'Готові домашні завдання'.$page;
+		$this->pageTitle = 'Готові домашні завдання '.$page;
+		$this->keywords .= 'Готові домашні завдання ' . Yii::app()->params['clas'].' клас';
+		$this->description .= ' для ' Yii::app()->params['clas'].' класу';
 		$this->h1 .= Yii::app()->params['clas'].' класу';
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 

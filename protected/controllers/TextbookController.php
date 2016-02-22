@@ -13,7 +13,7 @@ public $nested;
 public $h1='Підручники';
 public $param;
 public $keywords='підручники онлайн, скачати підручники';
-public $description='Підручники для середніх загальноосвітніх шкіл України.';
+public $description='Підручники для ';
 
 
 
@@ -75,7 +75,9 @@ public function actionIndex(){
 			$page = '';
 		}
 
-		$this->pageTitle = 'Підручники'.$page;
+		$this->pageTitle = 'Підручники '.$page;
+		$this->description = ' для ' Yii::app()->params['clas'].' класу';
+		$this->keywords .= 'Підручники ' . Yii::app()->params['clas'].' клас';
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 
 		$criteria = new CDbCriteria;

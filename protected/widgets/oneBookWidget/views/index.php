@@ -13,18 +13,18 @@ $path = 'images/gdz/'.$this->params['clas'].'/'.$this->params['subject'].'/'.$th
 	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-6 book-desc">
 		
 		
-		<div><small>автор: </small><?php echo $this->model->author; ?></div>
 		<div><small>предмет: </small>
+		<div><small>автор: </small><?php echo $this->model->author; ?></div>
 		<?php 
 			$subj = $this->model->title;
 			$subj .= $this->model->properties ? ' ' . $this->model->properties : '' ;
 			echo  $subj;
 		?></div>
-		<div><small>клас: </small><?php echo $this->model->clas->slug; ?> клас</div>
 
 		<?php if($this->model->year): ?>
 		<div><small>рік: </small><?php echo $this->model->year; ?></div>
 		<?php endif; ?>
+		<div><small>клас: </small><?php echo $this->model->clas->slug; ?> клас</div>
 
 		<?php if($this->model->edition): ?>
 		<div><small>видавництво: </small><?php echo $this->model->edition; ?></div>

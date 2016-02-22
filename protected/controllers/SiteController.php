@@ -10,7 +10,7 @@ public $clasModel=null;
 public $subjectModel=null;
 public $bookModel=null;
 public $nested;
-public $h1='Готові домашні завдання для всіх класів';
+public $h1='Готові домашні завдання для ';
 public $param;
 public $keywords='готові домашні завдання, гдз, гдз онлайн, гдз україна, гдз решебники, gdz';
 public $description='ГДЗ - готові домашні завдання онлайн, для середніх загальноосвітніх шкіл України.';
@@ -86,10 +86,12 @@ public function actionIndex(){
 		}
 
 		$this->pageTitle = 'Готові домашні завдання'.$page;
+		$this->h1 .= Yii::app()->params['clas'].' класу';
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 
 		$criteria = new CDbCriteria;
 		$criteria->condition = 't.public=1';
+		$criteria->addCondition('t.class_id='.Yii::app()->params['clasId']);
 		$criteria->addCondition('t.create_time<'.time());
 
 		$books = new CActiveDataProvider('Book',array('criteria'=>$criteria,'pagination'=>array('pageSize'=>12,'pageVar'=>'p')));
@@ -108,6 +110,8 @@ public function actionIndex(){
  * @return [type] [description]
  */
 public function actionClas($clas){
+	throw new CHttpException('404', 'page not found');
+
 
 	// d();
 
@@ -217,7 +221,6 @@ public function actionSubject($clas, $subject){
 
 		$this->breadcrumbs = array(
 			'Головна'=>Yii::app()->homeUrl,
-			$clas . ' клас' => $this->createUrl('/'.$clas),
 			$this->subjectModel->title
 		);
 
@@ -510,6 +513,9 @@ public function actionError(){
  * @return [type]       [description]
  */
 private function loadClas($clas){
+	if($clas != Yii::app()->params['clas']){
+		throw new CHttpException('404', 'not clas');
+	}
 
 	$clasModel = Clas::model()->find('slug=:clas',array(':clas'=>(int)$clas));
 	if( ! $clasModel ){

@@ -1,7 +1,7 @@
 assets/*
 images/*
 protected/runtime/*
-protected/config/_db.php
+protected/config/_*
 protected/yiic.log
 sitemap.xml
 !/.gitignore

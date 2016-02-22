@@ -199,6 +199,8 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'audiua@yandex.ru',
+		'clas'=> require(dirname(__FILE__).'/_clas.php'),
+		'clas'=> require(dirname(__FILE__).'/_clasId.php'),
 		'auth'=> require(dirname(__FILE__).'/_auth.php'),
 	),
 );

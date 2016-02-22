@@ -9,7 +9,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-		  <?php echo ($this->action->id != 'index') ? CHtml::link('ГДЗ Україна', '/', array('class'=>'navbar-brand')): '<span class="navbar-brand">ГДЗ Україна</span>' ?>
+		  <?php echo ($this->action->id != 'index') ? CHtml::link('ГДЗ 6 клас Україна', '/', array('class'=>'navbar-brand')): '<span class="navbar-brand">ГДЗ 6 клас Україна</span>' ?>
 		</div>
 
 	    <div class="collapse navbar-collapse" id="menu-footer">

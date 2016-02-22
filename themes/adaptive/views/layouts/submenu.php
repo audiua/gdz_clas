@@ -7,41 +7,43 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<?php echo ($this->action->id != 'index') ? CHtml::link('MyGdz', '/', array('class'=>'navbar-brand')): '<span class="navbar-brand">MyGdz</span>' ?>
+			<?php echo ($this->action->id != 'index') ? CHtml::link('Gdz'.Yii::app()->params['clas'].'clas', '/', array('class'=>'navbar-brand')): '<span class="navbar-brand">Gdz-'.Yii::app()->params['clas'].'-Clas</span>' ?>
 		</div>
 
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 		    <ul class="nav navbar-nav">
 		        <li class="menu-item dropdown <?= ($this->id == 'site') ? ' active' : '' ; ?>">
-		            <a href="/" class="dropdown-toggle " data-toggle="dropdown">ГДЗ<b class="caret"></b></a>
+		            <a href="/" class="dropdown-toggle " data-toggle="dropdown">ГДЗ <?=Yii::app()->params['clas'] ?> клас<b class="caret"></b></a>
 		            <ul class="dropdown-menu">
-		            <?php foreach( Clas::model()->findAll() as $clas ) : ?>
-		                <li class="menu-item dropdown dropdown-submenu">
-		                    <a href="/<?= $clas->slug; ?>" class="dropdown-toggle" data-toggle="dropdown"><?= $clas->slug; ?> клас</a>
-		                    <ul class="dropdown-menu">
-		                    	<?php foreach( $clas->subject as $subject ) : ?>
+		            <?php foreach( Clas::model()->findAll() as $clas ) : 
+		            	if($clas->slug != Yii::app()->params['clas']){
+		            		continue;
+		            	}
+		            ?>
+		                <li class="menu-item">
+		                    <?php foreach( $clas->subject as $subject ) : ?>
 		                        <li class="menu-item ">
 		                            <a href="<?=Yii::app()->baseUrl.'/'.$clas->slug . '/' . $subject->slug; ?>"><?= $subject->title; ?></a>
 		                        </li>
-		                        <?php endforeach; ?>
-		                    </ul>
+	                        <?php endforeach; ?>
 		                </li>
 	                <?php endforeach; ?>
 		            </ul>
 		        </li>
 		        <li class="menu-item dropdown <?= ($this->id == 'textbook') ? ' active' : '' ; ?>">
-		            <a href="/textbook" class="dropdown-toggle " data-toggle="dropdown">Підручники<b class="caret"></b></a>
+		            <a href="/textbook" class="dropdown-toggle " data-toggle="dropdown">Підручники <?=Yii::app()->params['clas'] ?> клас<b class="caret"></b></a>
 		            <ul class="dropdown-menu">
-		            <?php foreach( TextbookClas::model()->findAll() as $clas ) : ?>
-		                <li class="menu-item dropdown dropdown-submenu">
-		                    <a href="/textbook/<?= $clas->slug; ?>" class="dropdown-toggle" data-toggle="dropdown"><?= $clas->name; ?> клас</a>
-		                    <ul class="dropdown-menu">
-		                    	<?php foreach( $clas->getSubject() as $subject ) : ?>
+		            <?php foreach( TextbookClas::model()->findAll() as $clas ) : 
+		            	if($clas->slug != Yii::app()->params['clas']){
+		            		continue;
+		            	}
+		            ?>
+		                <li class="menu-item">
+		                    <?php foreach( $clas->getSubject() as $subject ) : ?>
 		                        <li class="menu-item ">
 		                            <a href="/textbook/<?=$clas->slug . '/' . $subject->slug; ?>"><?= $subject->name; ?></a>
 		                        </li>
-		                        <?php endforeach; ?>
-		                    </ul>
+	                        <?php endforeach; ?>
 		                </li>
 	                <?php endforeach; ?>
 		            </ul>

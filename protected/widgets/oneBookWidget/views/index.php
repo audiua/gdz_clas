@@ -44,7 +44,7 @@ $path = 'images/gdz/'.$this->params['clas'].'/'.$this->params['subject'].'/'.$th
 	</div>
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<?php if($this->model->description){echo $this->model->description;} ?>
+		<?php if($this->model->description){} ?>
 	</div>
 </div>
 

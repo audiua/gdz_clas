@@ -12,14 +12,6 @@
 <div class="clearfix"></div>
 <div class="separator"></div>
 
-<div class="lead">Популярні підручники: </div>
-<div class="book-list">
-	<?php $this->widget('RelativeTextbooksWidget', array('mode'=>'all')); ?>
-</div>
-
-<div class="clearfix"></div>
-<div class="separator"></div>
-
 <div class="lead">Схожі підручники: </div>
 <div class="book-list">
 	<?php $this->widget('RelativeTextbooksWidget', array('mode'=>'clas')); ?>

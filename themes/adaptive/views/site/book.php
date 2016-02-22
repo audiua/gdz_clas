@@ -38,14 +38,6 @@
 <div class="clearfix"></div>
 <div class="separator"></div>
 
-<div class="lead">Популярні збірники гдз: </div>
-<div class="book-list">
-	<?php $this->widget('RelativeBooksWidget', array('mode'=>'all')); ?>
-</div>
-
-<div class="clearfix"></div>
-<div class="separator"></div>
-
 <div class="lead">Схожі збірники гдз: </div>
 <div class="book-list">
 	<?php $this->widget('RelativeBooksWidget', array('mode'=>'clas')); ?>

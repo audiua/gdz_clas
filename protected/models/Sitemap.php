@@ -47,6 +47,8 @@ class Sitemap
         // die;
         foreach ($models as $model){
 
+            // print_r($model);
+
             //  добаляем в карту только опубликованные
             if( isset($model->created) ){
                 if( $time < $model->created ){
@@ -115,13 +117,13 @@ class Sitemap
      */
     public function addModelsWithClas($models, $changeFreq=self::DAILY, $priority=0.5){
         $host = Yii::app()->request->hostInfo;
-        foreach ($models as $model){
+        foreach ($models as $subject){
 
-            if($model->subject){
-                foreach($model->subject as $subject){
+            // if($model->subject){
+            //     foreach($model->subject as $subject){
 
                     $item = array(
-                        'loc' => $host . $subject->getUrl($model->slug),
+                        'loc' => $host . $subject->getUrl(Yii::app()->params['clas']),
                         'changefreq' => $changeFreq,
                         'priority' => $priority
                     );
@@ -133,8 +135,8 @@ class Sitemap
 
                     $this->items[] = $item;
 
-                }
-            }
+            //     }
+            // }
         }
     }
 

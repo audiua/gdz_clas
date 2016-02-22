@@ -15,16 +15,16 @@
 	    <div class="collapse navbar-collapse" id="menu-footer">
 	      <ul class="nav navbar-nav navbar-right">
 	        <li>
-				<?php  echo CHtml::link('Контакти', array('/site/page?view=contacts'), array('rel'=>'nofollow')); ?>
+				<?php  CHtml::link('Контакти', array('/site/page?view=contacts'), array('rel'=>'nofollow')); ?>
 	        </li>
 	        <li>
-				<?php  echo CHtml::link('Правовласникам', array('/site/page?view=rightholder'), array('rel'=>'nofollow')); ?>
+				<?php  CHtml::link('Правовласникам', array('/site/page?view=rightholder'), array('rel'=>'nofollow')); ?>
 	        </li>
 	        <li>
-				<?php  echo CHtml::link('Рекламодавцям', array('/site/page?view=advertiser'), array('rel'=>'nofollow')); ?>
+				<?php  CHtml::link('Рекламодавцям', array('/site/page?view=advertiser'), array('rel'=>'nofollow')); ?>
 	        </li>
 	        <li>
-				<?php  echo CHtml::link('Правила та Угоди', array('/site/page?view=rules'), array('rel'=>'nofollow')); ?>
+				<?php  CHtml::link('Правила та Угоди', array('/site/page?view=rules'), array('rel'=>'nofollow')); ?>
 	        </li>
 	        <li>
 				<?php  echo CHtml::link('Карта сайта', array('/sitemap'), array('rel'=>'nofollow', 'target'=>'_blank')); ?>

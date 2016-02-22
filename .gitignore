@@ -4,4 +4,5 @@ protected/runtime/*
 protected/config/_*
 protected/yiic.log
 sitemap.xml
+robots.txt
 !/.gitignore

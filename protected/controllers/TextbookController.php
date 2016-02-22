@@ -76,7 +76,7 @@ public function actionIndex(){
 		}
 
 		$this->pageTitle = 'Підручники '.$page;
-		$this->description = ' для ' Yii::app()->params['clas'].' класу';
+		$this->description .= ' для ' . Yii::app()->params['clas'].' класу';
 		$this->keywords .= 'Підручники ' . Yii::app()->params['clas'].' клас';
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 

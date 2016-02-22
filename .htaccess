@@ -1,0 +1,47 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
+
+<IfModule mod_deflate.c>
+SetOutputFilter DEFLATE
+Header append Vary User-Agent
+</IfModule>
+
+<FilesMatch "\.(ico|gif|jpg|png|jpeg)$">
+    Header set Cache-Control "max-age=2592000, must-revalidate, public"
+</FilesMatch>
+
+<ifmodule mod_expires.c>
+
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/ico "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType text/x-javascript "access plus 1 month"
+    ExpiresByType application/x-shockwave-flash "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType text/html "access plus 2 days 12 hours"
+    ExpiresDefault "access plus 22 days"
+
+</ifmodule>
+
+<IfModule pagespeed_module>
+    ModPageSpeed off
+    ModPagespeedRewriteLevel CoreFilters
+    ModPagespeedEnableFilters rewrite_css,sprite_images,pedantic,remove_comments
+    ModPagespeedEnableFilters trim_urls
+    ModPagespeedEnableFilters local_storage_cache
+    ModPagespeedEnableFilters insert_dns_prefetch
+</IfModule>

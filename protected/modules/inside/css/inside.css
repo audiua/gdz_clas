@@ -1,0 +1,36 @@
+body{
+	width: 99%;
+	height: 500px;
+	outline: 2px solid red;
+	margin: 0 auto;
+
+
+}
+
+.header{
+	height: 40px;
+	width: 100%;
+	outline: 1px solid green;
+	margin-bottom: 15px;
+}
+
+.sidebar{
+	float: left;
+	width: 20%;
+
+}
+
+.content{
+	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.top-menu{ 
+	background: #fafafa;
+}
+
+.top-menu ul li{ 
+	display: inline;
+}
+

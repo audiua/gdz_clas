@@ -1,0 +1,1 @@
+<div class="content col-md-9"><?= $content; ?></div>

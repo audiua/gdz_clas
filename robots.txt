@@ -1,0 +1,12 @@
+User-agent: Yandex
+Disallow: /assets/
+Disallow: /protected/
+Disallow: /themes/
+
+User-agent: *
+Disallow: /assets/
+Disallow: /protected/
+Disallow: /themes/
+
+HOST: mygdz.pp.ua
+Sitemap: http://mygdz.pp.ua/sitemap.xml

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# rm -R protected/runtime/cache/*
+# rm -R protected/runtime/gii-1.1.15/*
+# rm -R protected/runtime/application.log*
+rm -R ../../assets/*

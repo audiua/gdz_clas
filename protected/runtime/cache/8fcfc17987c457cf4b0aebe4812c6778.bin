@@ -1,0 +1,851 @@
+a:2:{i:0;a:2:{i:0;s:42197:"<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+    	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    	<base href="http://mygdz.loc">
+
+    	<meta name="description" content="ГДЗ - готові домашні завдання онлайн, для середніх загальноосвітніх шкіл України." />
+    	<meta name="keywords" content="готові домашні завдання, гдз, гдз онлайн, гдз україна, гдз решебники, gdz" />
+
+    	<!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    	<!-- <link rel="stylesheet" href="/css/style.css"> -->
+    	<!-- <link rel="stylesheet" href="/css/social-likes_flat.css"> -->
+
+		<link rel="stylesheet" type="text/css" href="/assets/1c246d04/listview/styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/bee1f05d/treeview/jquery.treeview.css" />
+<title>Готові домашні завдання</title>
+		
+				<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<script>
+			var ms=document.createElement("link");
+			ms.rel="stylesheet";
+			ms.href="/themes/adaptive/css/bootstrap.min.css";
+			document.getElementsByTagName("head")[0].appendChild(ms);
+			var ms=document.createElement("link");
+			ms.rel="stylesheet";
+			ms.href="/themes/adaptive/css/style.css";
+			document.getElementsByTagName("head")[0].appendChild(ms);
+			var ms=document.createElement("link");
+			ms.rel="stylesheet";
+			ms.href="/css/social-likes_flat.css";
+			document.getElementsByTagName("head")[0].appendChild(ms);
+		</script>
+		
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button tupe="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+				<span class="sr-only">Menu</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<span class="navbar-brand">ГДЗ Україна</span>		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="responsive-menu">
+			<ul class="nav navbar-nav">
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">5 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/5/math">Математика</a></li>
+															<li><a href="/5/lang_ua">Українська мова</a></li>
+															<li><a href="/5/lit_ua">Українська література</a></li>
+															<li><a href="/5/lang_en">Англійська мова</a></li>
+															<li><a href="/5/health">Основи здоров'я</a></li>
+															<li><a href="/5/nature">Природознавство</a></li>
+															<li><a href="/5/etika">Етика</a></li>
+															<li><a href="/5/info">Інформатика</a></li>
+															<li><a href="/5/lit_w">Світова література</a></li>
+															<li><a href="/5/lang_ru">Російська мова</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">6 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/6/math">Математика</a></li>
+															<li><a href="/6/lit_ua">Українська література</a></li>
+															<li><a href="/6/lang_ru">Російська мова</a></li>
+															<li><a href="/6/lang_ua">Українська мова</a></li>
+															<li><a href="/6/geogr">Географія</a></li>
+															<li><a href="/6/health">Основи здоров'я</a></li>
+															<li><a href="/6/etika">Етика</a></li>
+															<li><a href="/6/nature">Природознавство</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">7 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/7/algebra">Алгебра</a></li>
+															<li><a href="/7/geom">Геометрія</a></li>
+															<li><a href="/7/lang_ru">Російська мова</a></li>
+															<li><a href="/7/lang_ua">Українська мова</a></li>
+															<li><a href="/7/fizika">Фізика</a></li>
+															<li><a href="/7/geogr">Географія</a></li>
+															<li><a href="/7/bio">Біологія</a></li>
+															<li><a href="/7/history_ua">Історія України</a></li>
+															<li><a href="/7/health">Основи здоров'я</a></li>
+															<li><a href="/7/lit_ua">Українська література</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">8 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/8/algebra">Алгебра</a></li>
+															<li><a href="/8/lang_ru">Російська мова</a></li>
+															<li><a href="/8/lang_ua">Українська мова</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">9 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/9/algebra">Алгебра</a></li>
+															<li><a href="/9/geom">Геометрія</a></li>
+															<li><a href="/9/info">Інформатика</a></li>
+															<li><a href="/9/lang_ru">Російська мова</a></li>
+															<li><a href="/9/lang_ua">Українська мова</a></li>
+															<li><a href="/9/fizika">Фізика</a></li>
+															<li><a href="/9/him">Хімія</a></li>
+															<li><a href="/9/geogr">Географія</a></li>
+															<li><a href="/9/bio">Біологія</a></li>
+															<li><a href="/9/health">Основи здоров'я</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">10 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/10/algebra">Алгебра</a></li>
+															<li><a href="/10/bio">Біологія</a></li>
+															<li><a href="/10/geom">Геометрія</a></li>
+															<li><a href="/10/lang_ru">Російська мова</a></li>
+															<li><a href="/10/lang_ua">Українська мова</a></li>
+															<li><a href="/10/fizika">Фізика</a></li>
+															<li><a href="/10/him">Хімія</a></li>
+													</ul>
+					</li>
+									<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">11 клас<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+															<li><a href="/11/lang_ua">Українська мова</a></li>
+															<li><a href="/11/algebra">Алгебра</a></li>
+															<li><a href="/11/geom">Геометрія</a></li>
+													</ul>
+					</li>
+							</ul>
+		</div>
+	</div>
+</nav>
+
+			</div>
+			<div class="row">
+				<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+
+					<div class="adaptive-banner">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- my_adaptive_top -->
+						<ins class="adsbygoogle"
+						     style="display:block"
+						     data-ad-client="ca-pub-9657826060070920"
+						     data-ad-slot="5318848293"
+						     data-ad-format="auto"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+                	<h1>Готові домашні завдання для всіх класів</h1>
+
+<div id="yw0" class="list-view">
+<div class="items">
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/math/bevz"><img class="" title="ГДЗ - 5 клас Математика Бевз Г.П." width="140" heigth="200" src="/images/gdz/5/math/bevz/book/140x200_bevz.jpg" alt="ГДЗ - 5 клас Математика Бевз Г.П." /></a>
+
+	<a href="5/math/bevz"><div>Бевз Г.П. Математика 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/math/merzlyak"><img class="" title="ГДЗ - 5 клас Математика Мерзляк А.Г." width="140" heigth="200" src="/images/gdz/5/math/merzlyak/book/140x200_merzlyak.jpeg" alt="ГДЗ - 5 клас Математика Мерзляк А.Г." /></a>
+
+	<a href="5/math/merzlyak"><div>Мерзляк А.Г. Математика 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lang_ua/ermolenko"><img class="" title="ГДЗ - 5 клас Українська мова С.Я. Єрмоленко, В.Т. Сичова" width="140" heigth="200" src="/images/gdz/5/lang_ua/ermolenko/book/140x200_ermolenko.jpg" alt="ГДЗ - 5 клас Українська мова С.Я. Єрмоленко, В.Т. Сичова" /></a>
+
+	<a href="5/lang_ua/ermolenko"><div>С.Я. Єрмоленко, В.Т. Сичова Рідна мова 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lang_ua/kuznecov"><img class="" title="ГДЗ - 5 клас Українська мова О.П. Глазова, Ю.Б. Кузнєцов" width="140" heigth="200" src="/images/gdz/5/lang_ua/kuznecov/book/140x200_kuznecov.jpg" alt="ГДЗ - 5 клас Українська мова О.П. Глазова, Ю.Б. Кузнєцов" /></a>
+
+	<a href="5/lang_ua/kuznecov"><div>О.П. Глазова, Ю.Б. Кузнєцов Рiдна мова 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/health/boychenko"><img class="" title="ГДЗ - 5 клас Основи здоров&#039;я О.І. Бойченко" width="140" heigth="200" src="/images/gdz/5/health/boychenko/book/140x200_boychenko.jpg" alt="ГДЗ - 5 клас Основи здоров&#039;я О.І. Бойченко" /></a>
+
+	<a href="5/health/boychenko"><div>О.І. Бойченко Основи здоров'я 5 клас</div></a>		<div class="desc"> Робочий зошит</div></div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/nature/shabanov"><img class="" title="ГДЗ - 5 клас Природознавство Д.А. Шабанов, К.М. Задорожний" width="140" heigth="200" src="/images/gdz/5/nature/shabanov/book/140x200_shabanov.gif" alt="ГДЗ - 5 клас Природознавство Д.А. Шабанов, К.М. Задорожний" /></a>
+
+	<a href="5/nature/shabanov"><div>Д.А. Шабанов, К.М. Задорожний Природознавство 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/etika/martunyk"><img class="" title="ГДЗ - 5 клас Етика О.О. Мартинюк, О.В. Гісем" width="140" heigth="200" src="/images/gdz/5/etika/martunyk/book/140x200_martunyk.jpg" alt="ГДЗ - 5 клас Етика О.О. Мартинюк, О.В. Гісем" /></a>
+
+	<a href="5/etika/martunyk"><div>О.О. Мартинюк, О.В. Гісем Етика 5 клас</div></a>		<div class="desc">Робочий зошит</div></div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lit_ua/parashcuch"><img class="" title="ГДЗ - 5 клас Українська література В.В. Паращич" width="140" heigth="200" src="/images/gdz/5/lit_ua/parashcuch/book/140x200_parashcuch.jpg" alt="ГДЗ - 5 клас Українська література В.В. Паращич" /></a>
+
+	<a href="5/lit_ua/parashcuch"><div>В.В. Паращич Українська література 5 клас</div></a>		<div class="desc">Комплексний зошит</div></div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lang_en/karpuk"><img class="" title="ГДЗ - 5 клас Англійська мова О.Д. Карп&#039;юк" width="140" heigth="200" src="/images/gdz/5/lang_en/karpuk/book/140x200_karpuk.jpeg" alt="ГДЗ - 5 клас Англійська мова О.Д. Карп&#039;юк" /></a>
+
+	<a href="5/lang_en/karpuk"><div>О.Д. Карп'юк English 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lang_en/nesvut"><img class="" title="ГДЗ - 5 клас Англійська мова Несвит" width="140" heigth="200" src="/images/gdz/5/lang_en/nesvut/book/140x200_nesvut.jpeg" alt="ГДЗ - 5 клас Англійська мова Несвит" /></a>
+
+	<a href="5/lang_en/nesvut"><div>Несвит English 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/info/lusenko"><img class="" title="ГДЗ - 5 клас Інформатика Й.Я. Риквінд, Т.І. Лисенко" width="140" heigth="200" src="/images/gdz/5/info/lusenko/book/140x200_lusenko.jpg" alt="ГДЗ - 5 клас Інформатика Й.Я. Риквінд, Т.І. Лисенко" /></a>
+
+	<a href="5/info/lusenko"><div>Й.Я. Риквінд, Т.І. Лисенко Інформатика 5 клас</div></a>		</div>
+
+					
+
+
+
+<div class="item col-lg-3 col-md-4 col-sm-4 col-xs-12"> 
+
+	<a href="/5/lit_w/lit_w"><img class="" title="ГДЗ - 5 клас Світова література " width="140" heigth="200" src="/images/gdz/5/lit_w/lit_w/book/140x200_lit_w.jpg" alt="ГДЗ - 5 клас Світова література " /></a>
+
+	<a href="5/lit_w/lit_w"><div> Світова література 5 клас</div></a>		<div class="desc">Тест-контроль</div></div>
+
+					
+</div>
+<div class="pager"><div class="clearfix"></div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- my_mobi_middle -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-9657826060070920"
+     data-ad-slot="9749047893"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><div class="clearfix"></div><ul id="yw1" class="yiiPager"><li class="first disabled"><span>&lt;&lt;</span></li>
+<li class="previous disabled"><span>&lt;</span></li>
+<li class="page_li selected"><span>1</span></li>
+<li class="page_li"><a href="/p/2">2</a></li>
+<li class="page_li"><a href="/p/3">3</a></li>
+<li class="page_li"><a href="/p/4">4</a></li>
+<li class="page_li"><a href="/p/5">5</a></li>
+<li class="page_li"><a href="/p/6">6</a></li>
+<li class="page_li"><a href="/p/7">7</a></li>
+<li class="page_li"><a href="/p/8">8</a></li>
+<li class="page_li"><a href="/p/9">9</a></li>
+<li class="next"><a href="/p/2">&gt;</a></li>
+<li class="last"><a href="/p/9">&gt;&gt;</a></li></ul></div><div class="keys" style="display:none" title="/"><span>1</span><span>2</span><span>3</span><span>4</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>14</span><span>15</span></div>
+</div>
+
+
+<div class="description">
+	<p>
+		На данному сайті зібрані рішення домашніх завдань для середніх загальноосвітніх шкіл <strong>України</strong>.<br>
+		Якщо у вас виникли труднощі з виконанням домашніх завдань або Ви сумніваєтесь в правильності відповідей, то
+		кращим помічником, для Вас в цьому випадку може стати - наш сайт <strong>MYGDZ.PP.UA</strong>! На нашому сайті Ви без проблем, зможете знайти готові домашні 
+		завдання по всім шкільним предметам старших класів(5-11). Ми можемо Вам запропонувати ГДЗ з хімії, фізики, біології, 
+		а також є готові домашні завдання з російської та української мови. 
+		
+	</p>
+	<p>
+		Готові домашні завдання без реєстрації можна знайти у відповідних розділах нашого сайту. 
+		Наші ГДЗ зможуть допомогти будь-якому школяреві, який зіткнувся з труднощами в їх виконанні. 
+		Готові домашні завдання безкоштовно за допомогою одного з предметів шкільної програми заощадять 
+		час і дозволять з успіхом розібратися у найскладніших завданнях! <br><br>
+		<strong>Як правильно використовувати готові домашні завдання? </strong><br>Звичайно, існування посібників і збірників ГДЗ не
+		припускає того, що учні бездумно списують рішення та відповіді в зошит, хоча багато учнів можливо
+		так і роблять, що не гарантує їм отримання високої оцінки й одержання будь-яких знань. 
+		<strong>Звертаємо Вашу увагу</strong>, що так чинять тільки не дуже розумні люди, які хочуть такими ж і залишитися. 
+		Істинне призначення посібників ГДЗ для різних класів, починаючи з 5 класу, полягає в тому, щоб кожен 
+		школяр мав змогу щонайменше побачити правильну відповідь для звірки і як максимум розглянути правильне 
+		рішення для того, щоб розібратися, як правильно виконувати дане завдання. І само собою зрозуміло, що ГДЗ 
+		онлайн зручно використовувати батькам, які приділяють час на перевірку домашньої роботи своїх дітей.
+	</p>
+							
+</div>
+
+				</div>
+				<div class="col-lg-3 col-md-4 hidden-sm hidden-xs">
+					<div class="sidebar">
+	<div class="banner">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- my небоскреб -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-9657826060070920"
+     data-ad-slot="9475257091"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 col-lg-12 tree">
+			<div class="lead">Навігація по сайту</div>
+			<div class="tree-menu">
+	<ul id="yw2">
+<li class="closed" id="1"><h3><a href="5">5 клас</a></h3>
+<ul>
+<li class="closed" id="2"><a href= "/5/math">Математика</a>
+<ul>
+<li class="closed" id="1"><a href= "/5/math/bevz">Бевз Г.П.</a></li>
+<li class="closed" id="2"><a href= "/5/math/merzlyak">Мерзляк А.Г.</a></li>
+</ul>
+</li>
+<li class="closed" id="3"><a href= "/5/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="3"><a href= "/5/lang_ua/ermolenko">С.Я. Єрмоленко, В.Т. Сичова</a></li>
+<li class="closed" id="4"><a href= "/5/lang_ua/kuznecov">О.П. Глазова, Ю.Б. Кузнєцов</a></li>
+</ul>
+</li>
+<li class="closed" id="4"><a href= "/5/lit_ua">Українська література</a>
+<ul>
+<li class="closed" id="9"><a href= "/5/lit_ua/parashcuch">В.В. Паращич</a></li>
+</ul>
+</li>
+<li class="closed" id="9"><a href= "/5/lang_en">Англійська мова</a>
+<ul>
+<li class="closed" id="10"><a href= "/5/lang_en/karpuk">О.Д. Карп'юк</a></li>
+<li class="closed" id="11"><a href= "/5/lang_en/nesvut">Несвит</a></li>
+</ul>
+</li>
+<li class="closed" id="10"><a href= "/5/health">Основи здоров'я</a>
+<ul>
+<li class="closed" id="6"><a href= "/5/health/boychenko">О.І. Бойченко</a></li>
+</ul>
+</li>
+<li class="closed" id="11"><a href= "/5/nature">Природознавство</a>
+<ul>
+<li class="closed" id="7"><a href= "/5/nature/shabanov">Д.А. Шабанов, К.М. Задорожний</a></li>
+</ul>
+</li>
+<li class="closed" id="12"><a href= "/5/etika">Етика</a>
+<ul>
+<li class="closed" id="8"><a href= "/5/etika/martunyk">О.О. Мартинюк, О.В. Гісем</a></li>
+</ul>
+</li>
+<li class="closed" id="13"><a href= "/5/info">Інформатика</a>
+<ul>
+<li class="closed" id="14"><a href= "/5/info/lusenko">Й.Я. Риквінд, Т.І. Лисенко</a></li>
+</ul>
+</li>
+<li class="closed" id="14"><a href= "/5/lit_w">Світова література</a>
+<ul>
+<li class="closed" id="15"><a href= "/5/lit_w/lit_w"></a></li>
+</ul>
+</li>
+<li class="closed" id="15"><a href= "/5/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="16"><a href= "/5/lang_ru/balandina">Н.Ф. Баландина, К.В. Дегтярёва</a></li>
+<li class="closed" id="19"><a href= "/5/lang_ru/gudzik">Н.А. Пашковская, И.П. Гудзик</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="2"><h3><a href="6">6 клас</a></h3>
+<ul>
+<li class="closed" id="5"><a href= "/6/math">Математика</a>
+<ul>
+<li class="closed" id="20"><a href= "/6/math/kravchyk">Г.М. Янченко, В.Р. Кравчук</a></li>
+<li class="closed" id="21"><a href= "/6/math/merzlyak">А.Г. Мерзляк, М.С. Якір</a></li>
+</ul>
+</li>
+<li class="closed" id="6"><a href= "/6/lit_ua">Українська література</a>
+<ul>
+<li class="closed" id="28"><a href= "/6/lit_ua/parashcuch">В.В. Паращич</a></li>
+</ul>
+</li>
+<li class="closed" id="16"><a href= "/6/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="22"><a href= "/6/lang_ru/gudzik">І.П. Гудзик, В.О. Корсакова</a></li>
+<li class="closed" id="23"><a href= "/6/lang_ru/pashkivska">Н.А. Пашківської, І.П. Гудзик</a></li>
+<li class="closed" id="24"><a href= "/6/lang_ru/muhaylovska">Г.А. Михайловская</a></li>
+<li class="closed" id="113"><a href= "/6/lang_ru/bukova">Е.И. Быкова</a></li>
+</ul>
+</li>
+<li class="closed" id="17"><a href= "/6/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="25"><a href= "/6/lang_ua/sichova">С.Я. Єрмоленко, В.Т. Сичова</a></li>
+<li class="closed" id="26"><a href= "/6/lang_ua/glazova">О.П. Глазова, Ю.Б. Кузнєцов</a></li>
+<li class="closed" id="27"><a href= "/6/lang_ua/pentuliuk">М.І. Пентилюк, І.В. Гайдаєнко</a></li>
+</ul>
+</li>
+<li class="closed" id="18"><a href= "/6/geogr">Географія</a>
+<ul>
+<li class="closed" id="29"><a href= "/6/geogr/stadnuk">О.Г. Стадник, Г.Д. Довгань</a></li>
+<li class="closed" id="30"><a href= "/6/geogr/kovalenko">О.Я. Скуратович, Р.Р. Коваленко</a></li>
+</ul>
+</li>
+<li class="closed" id="19"><a href= "/6/health">Основи здоров'я</a>
+<ul>
+<li class="closed" id="31"><a href= "/6/health/boychenko">О.І. Бойченко</a></li>
+</ul>
+</li>
+<li class="closed" id="20"><a href= "/6/etika">Етика</a>
+<ul>
+<li class="closed" id="32"><a href= "/6/etika/martunyk">О.О. Мартинюк, О.В. Гісем</a></li>
+</ul>
+</li>
+<li class="closed" id="21"><a href= "/6/nature">Природознавство</a>
+<ul>
+<li class="closed" id="33"><a href= "/6/nature/zaporojets">К.М. Задорожний, Н.В. Запорожець</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="3"><h3><a href="7">7 клас</a></h3>
+<ul>
+<li class="closed" id="22"><a href= "/7/algebra">Алгебра</a>
+<ul>
+<li class="closed" id="34"><a href= "/7/algebra/kravchyk">В.Р. Кравчук, Г.М. Янченко</a></li>
+</ul>
+</li>
+<li class="closed" id="23"><a href= "/7/geom">Геометрія</a>
+<ul>
+<li class="closed" id="35"><a href= "/7/geom/ister">О.С. Iстер</a></li>
+<li class="closed" id="36"><a href= "/7/geom/bevz">Г.П. Бевз, Н.Г. Владимірова</a></li>
+<li class="closed" id="37"><a href= "/7/geom/byrda">М.I. Бурда, Н.А. Тарасенкова</a></li>
+<li class="closed" id="38"><a href= "/7/geom/merzlyak">А.Г. Мерзляк, В.Б. Полонський</a></li>
+</ul>
+</li>
+<li class="closed" id="24"><a href= "/7/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="39"><a href= "/7/lang_ru/muhaylovska">Н.А. Пашковская, Г.О. Михайловская</a></li>
+</ul>
+</li>
+<li class="closed" id="25"><a href= "/7/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="40"><a href= "/7/lang_ua/sichova">С.Я. Єрмоленко, В.Т. Сичова</a></li>
+<li class="closed" id="41"><a href= "/7/lang_ua/glazova">О.П. Глазова, Ю.Б. Кузнєцов</a></li>
+<li class="closed" id="42"><a href= "/7/lang_ua/pentuliuk">М.І. Пентилюк, І.В. Гайдаєнко</a></li>
+</ul>
+</li>
+<li class="closed" id="26"><a href= "/7/fizika">Фізика</a>
+<ul>
+<li class="closed" id="43"><a href= "/7/fizika/bojunova">Ф.Я. Божинова, М.М. Кірюхіна</a></li>
+</ul>
+</li>
+<li class="closed" id="27"><a href= "/7/geogr">Географія</a>
+<ul>
+<li class="closed" id="44"><a href= "/7/geogr/stadnuk">О.Г. Стадник, Г.Д. Довгань</a></li>
+</ul>
+</li>
+<li class="closed" id="28"><a href= "/7/bio">Біологія</a>
+<ul>
+<li class="closed" id="45"><a href= "/7/bio/kotuk">Т.С. Котик </a></li>
+<li class="closed" id="46"><a href= "/7/bio/anderson">О.А. Андерсон</a></li>
+<li class="closed" id="47"><a href= "/7/bio/slavnuy">М.М. Мусієнко, П.С. Славний</a></li>
+<li class="closed" id="48"><a href= "/7/bio/vuhrenko">Т.К. Вихренко</a></li>
+</ul>
+</li>
+<li class="closed" id="29"><a href= "/7/history_ua">Історія України</a>
+<ul>
+<li class="closed" id="49"><a href= "/7/history_ua/history_ua"></a></li>
+</ul>
+</li>
+<li class="closed" id="30"><a href= "/7/health">Основи здоров'я</a>
+<ul>
+<li class="closed" id="50"><a href= "/7/health/taglina">О.В. Тагліна</a></li>
+</ul>
+</li>
+<li class="closed" id="31"><a href= "/7/lit_ua">Українська література</a>
+<ul>
+<li class="closed" id="51"><a href= "/7/lit_ua/parashcuch">В.В. Паращич</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="4"><h3><a href="8">8 клас</a></h3>
+<ul>
+<li class="closed" id="32"><a href= "/8/algebra">Алгебра</a>
+<ul>
+<li class="closed" id="52"><a href= "/8/algebra/ister">О.С. Істер</a></li>
+<li class="closed" id="53"><a href= "/8/algebra/merzlyak">А.Г. Мерзляк, В.Б. Полонский</a></li>
+</ul>
+</li>
+<li class="closed" id="33"><a href= "/8/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="54"><a href= "/8/lang_ru/stativka">Л.В. Давидюк, В.И. Стативка</a></li>
+<li class="closed" id="55"><a href= "/8/lang_ru/muhaylovska">Н.А. Пашковская, Г.О. Михайловская</a></li>
+<li class="closed" id="56"><a href= "/8/lang_ru/frolova">О.М. Рудяков, Т.Я. Фролова</a></li>
+</ul>
+</li>
+<li class="closed" id="34"><a href= "/8/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="57"><a href= "/8/lang_ua/glazova">О.П. Глазова, Ю.Б. Кузнєцов</a></li>
+<li class="closed" id="58"><a href= "/8/lang_ua/zabolotnuy">В.В. Заболотний, О.В. Заболотний</a></li>
+<li class="closed" id="59"><a href= "/8/lang_ua/pentuliuk">М.І. Пентилюк, І.В. Гайдаєнко</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="5"><h3><a href="9">9 клас</a></h3>
+<ul>
+<li class="closed" id="35"><a href= "/9/algebra">Алгебра</a>
+<ul>
+<li class="closed" id="60"><a href= "/9/algebra/bevz">Г.П. Бевз, В.Г. Бевз</a></li>
+<li class="closed" id="61"><a href= "/9/algebra/merzlyak">А.Г. Мерзляк, В.Б. Полонський</a></li>
+<li class="closed" id="62"><a href= "/9/algebra/lutvunenko">Ю.И. Мальований, Г.М. Литвиненко</a></li>
+</ul>
+</li>
+<li class="closed" id="36"><a href= "/9/geom">Геометрія</a>
+<ul>
+<li class="closed" id="63"><a href= "/9/geom/apostolova">Г.В. Апостолова</a></li>
+<li class="closed" id="64"><a href= "/9/geom/byrda">М.І. Бурда, Н.А. Тарасенкова</a></li>
+<li class="closed" id="65"><a href= "/9/geom/ershova">А.П. Єршова, В.В. Голобородько</a></li>
+<li class="closed" id="66"><a href= "/9/geom/merzlyak">А.Г. Мерзляк, В.Б. Полонський</a></li>
+</ul>
+</li>
+<li class="closed" id="37"><a href= "/9/info">Інформатика</a>
+<ul>
+<li class="closed" id="67"><a href= "/9/info/lisenko">Й.Я. Риквінд, Т.І. Лисенко</a></li>
+</ul>
+</li>
+<li class="closed" id="38"><a href= "/9/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="68"><a href= "/9/lang_ru/goloborodko">Г.П. Голобородько</a></li>
+<li class="closed" id="69"><a href= "/9/lang_ru/gudzik">И.П. Гудзик, В.О. Корсаков</a></li>
+<li class="closed" id="70"><a href= "/9/lang_ru/muhaylovska">Н.А. Пашковская, Г.О. Михайловская</a></li>
+</ul>
+</li>
+<li class="closed" id="39"><a href= "/9/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="71"><a href= "/9/lang_ua/sichova">С.Я. Єрмоленко, В.Т. Сичова</a></li>
+<li class="closed" id="72"><a href= "/9/lang_ua/bilyaev">О.М. Біляєв</a></li>
+<li class="closed" id="73"><a href= "/9/lang_ua/zabolotnuy">О.В. Заболотний, В.В. Заболотний</a></li>
+<li class="closed" id="74"><a href= "/9/lang_ua/shelehova">Г.Т. Шелехова, Я.І. Остаф</a></li>
+</ul>
+</li>
+<li class="closed" id="40"><a href= "/9/fizika">Фізика</a>
+<ul>
+<li class="closed" id="75"><a href= "/9/fizika/bojunova">Ф.Я. Божинова, О.О. Кірюхіна</a></li>
+<li class="closed" id="76"><a href= "/9/fizika/surotiuk">В.Д. Сиротюк</a></li>
+<li class="closed" id="114"><a href= "/9/fizika/korshak">Є.В. Коршак, О.І. Ляшенко</a></li>
+</ul>
+</li>
+<li class="closed" id="41"><a href= "/9/him">Хімія</a>
+<ul>
+<li class="closed" id="77"><a href= "/9/him/byrunska">Н.М. Буринська</a></li>
+<li class="closed" id="79"><a href= "/9/him/lashevska">Г.А. Лашевська</a></li>
+<li class="closed" id="80"><a href= "/9/him/popel">П.П. Попель, Л.С. Крикля</a></li>
+<li class="closed" id="81"><a href= "/9/him/yaroshenko">О.Г. Ярошенко</a></li>
+</ul>
+</li>
+<li class="closed" id="42"><a href= "/9/geogr">Географія</a>
+<ul>
+<li class="closed" id="82"><a href= "/9/geogr/dovgan">О.Г. Стадник, Г.Д. Довгань</a></li>
+</ul>
+</li>
+<li class="closed" id="43"><a href= "/9/bio">Біологія</a>
+<ul>
+<li class="closed" id="83"><a href= "/9/bio/kotuk">Т.С. Котик, О.В. Тагліна</a></li>
+</ul>
+</li>
+<li class="closed" id="44"><a href= "/9/health">Основи здоров'я</a>
+<ul>
+<li class="closed" id="84"><a href= "/9/health/taglina">О.В. Тагліна</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="6"><h3><a href="10">10 клас</a></h3>
+<ul>
+<li class="closed" id="45"><a href= "/10/algebra">Алгебра</a>
+<ul>
+<li class="closed" id="85"><a href= "/10/algebra/merzlyak">А.Г. Мерзляк</a></li>
+<li class="closed" id="86"><a href= "/10/algebra/merzlyak2">А.Г. Мерзляк</a></li>
+<li class="closed" id="87"><a href= "/10/algebra/nelin">Є.П. Нелін</a></li>
+<li class="closed" id="88"><a href= "/10/algebra/nelin2">Є.П. Нелін</a></li>
+</ul>
+</li>
+<li class="closed" id="46"><a href= "/10/bio">Біологія</a>
+<ul>
+<li class="closed" id="89"><a href= "/10/bio/balan">П.Г. Балан</a></li>
+<li class="closed" id="90"><a href= "/10/bio/taglina">О.В. Тагліна</a></li>
+</ul>
+</li>
+<li class="closed" id="47"><a href= "/10/geom">Геометрія</a>
+<ul>
+<li class="closed" id="91"><a href= "/10/geom/bevz">Г.П. Бевз, Н.Г. Владімірова</a></li>
+<li class="closed" id="92"><a href= "/10/geom/bilyanina">О.Я. Біляніна, Г.І. Біляніна</a></li>
+<li class="closed" id="93"><a href= "/10/geom/byrda">М.І. Бурда, Н.А. Тарасенкова</a></li>
+</ul>
+</li>
+<li class="closed" id="48"><a href= "/10/lang_ru">Російська мова</a>
+<ul>
+<li class="closed" id="94"><a href= "/10/lang_ru/balandina">Н.Ф. Баландина, К.В. Дегтярёва</a></li>
+<li class="closed" id="95"><a href= "/10/lang_ru/muhaylovska">Н.А. Пашковская, Г.О. Михайловская</a></li>
+</ul>
+</li>
+<li class="closed" id="49"><a href= "/10/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="96"><a href= "/10/lang_ua/glazova">О.П. Глазова, Ю.Б. Кузнєцов</a></li>
+<li class="closed" id="97"><a href= "/10/lang_ua/zabolotnuy">В.В. Заболотний, О.В. Заболотний</a></li>
+<li class="closed" id="98"><a href= "/10/lang_ua/plushc">М.Я. Плющ</a></li>
+</ul>
+</li>
+<li class="closed" id="50"><a href= "/10/fizika">Фізика</a>
+<ul>
+<li class="closed" id="99"><a href= "/10/fizika/bojunova">В.Г. Баряхтар, Ф.Я. Божинова</a></li>
+<li class="closed" id="100"><a href= "/10/fizika/surotiuk">В.Д. Сиротюк, В.І. Баштового</a></li>
+<li class="closed" id="101"><a href= "/10/fizika/korshak">Є.В. Коршак, О.І. Ляшенко</a></li>
+</ul>
+</li>
+<li class="closed" id="51"><a href= "/10/him">Хімія</a>
+<ul>
+<li class="closed" id="102"><a href= "/10/him/popel">П.П. Попель</a></li>
+<li class="closed" id="103"><a href= "/10/him/yaroshenko">О.Г. Ярошенко</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="closed" id="7"><h3><a href="11">11 клас</a></h3>
+<ul>
+<li class="closed" id="52"><a href= "/11/lang_ua">Українська мова</a>
+<ul>
+<li class="closed" id="104"><a href= "/11/lang_ua/oliynuk">О.Б. Олiйник</a></li>
+<li class="closed" id="105"><a href= "/11/lang_ua/bilyaev">О.М. Бiляєв</a></li>
+<li class="closed" id="106"><a href= "/11/lang_ua/karaman">С.О. Караман, О.В. Караман</a></li>
+<li class="closed" id="107"><a href= "/11/lang_ua/zabolotnuy">В.В. Заболотний, О.В. Заболотний</a></li>
+<li class="closed" id="108"><a href= "/11/lang_ua/sichova">С.Я. Єрмоленко, В.Т. Сичова</a></li>
+<li class="closed" id="109"><a href= "/11/lang_ua/bilyaev2">О.М. Біляєв</a></li>
+<li class="closed" id="110"><a href= "/11/lang_ua/test"></a></li>
+</ul>
+</li>
+<li class="closed" id="53"><a href= "/11/algebra">Алгебра</a>
+<ul>
+<li class="closed" id="111"><a href= "/11/algebra/shkil">М.І. Шкіль</a></li>
+</ul>
+</li>
+<li class="closed" id="54"><a href= "/11/geom">Геометрія</a>
+<ul>
+<li class="closed" id="112"><a href= "/11/geom/bevz">Г.П. Бевз, В.Г. Бевз</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></div>		</div>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="row">
+		<div class="col-md-12 col-lg-12 tree">
+			<div class="lead text-center">Соц. мережі</div>
+			<!--noindex-->
+				<div role="tabpanel">
+
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#vk" aria-controls="vk" role="tab" data-toggle="tab">vk</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="vk">
+						<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+
+						<!-- VK Widget -->
+						<div id="vk_groups"></div>
+						<script type="text/javascript">
+							VK.Widgets.Group("vk_groups", {mode: 0, width: "280", height: "80", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 86651632);
+						</script>
+				    </div>
+
+				  </div>
+
+				</div>
+			<!--/noindex-->
+		</div>
+	</div>
+
+</div>				</div>
+			</div>
+			<div class="row">
+				<div class="footer">
+	
+	<nav class="navbar navbar-default" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+			<button tupe="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-footer">
+				<span class="sr-only">Menu</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		  <span class="navbar-brand">ГДЗ Україна</span>		</div>
+
+	    <div class="collapse navbar-collapse" id="menu-footer">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li>
+				<a rel="nofollow" href="/site/page?view=contacts">Контакти</a>	        </li>
+	        <li>
+				<a rel="nofollow" href="/site/page?view=rightholder">Правовласникам</a>	        </li>
+	        <li>
+				<a rel="nofollow" href="/site/page?view=advertiser">Рекламодавцям</a>	        </li>
+	        <li>
+				<a rel="nofollow" href="/site/page?view=rules">Правила та Угоди</a>	        </li>
+	        <li>
+				<a rel="nofollow" target="_blank" href="/sitemap">Карта сайта</a>	        </li>
+	        <li>
+				<a rel="nofollow" target="_blank" href="/sitemap.xml">sitemap.xml</a>	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-54716600-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!--LiveInternet counter--><script type="text/javascript"><!--
+	new Image().src = "//counter.yadro.ru/hit?r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random();//--></script><!--/LiveInternet-->
+
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	    (function (d, w, c) {
+	        (w[c] = w[c] || []).push(function() {
+	            try {
+	                w.yaCounter32396805 = new Ya.Metrika({
+	                    id:32396805,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true,
+	                    webvisor:true
+	                });
+	            } catch(e) { }
+	        });
+
+	        var n = d.getElementsByTagName("script")[0],
+	            s = d.createElement("script"),
+	            f = function () { n.parentNode.insertBefore(s, n); };
+	        s.type = "text/javascript";
+	        s.async = true;
+	        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+	        if (w.opera == "[object Opera]") {
+	            d.addEventListener("DOMContentLoaded", f, false);
+	        } else { f(); }
+	    })(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/32396805" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+
+	<!-- <script async src="/js/less.js"></script> -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+
+</div>
+ 			</div>
+		</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/bee1f05d/jquery.ba-bbq.js"></script>
+<script type="text/javascript" src="/assets/bee1f05d/jquery.cookie.js"></script>
+<script type="text/javascript" src="/assets/bee1f05d/jquery.treeview.js"></script>
+<script type="text/javascript" src="/assets/bee1f05d/jquery.treeview.edit.js"></script>
+<script type="text/javascript" src="/assets/bee1f05d/jquery.treeview.async.js"></script>
+<script type="text/javascript" src="/assets/1c246d04/listview/jquery.yiilistview.js"></script>
+<script type="text/javascript" src="/assets/6451972a/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/6451972a/js/app.js"></script>
+<script type="text/javascript" src="/assets/6451972a/js/social-likes.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#yw0').yiiListView({'ajaxUpdate':[],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});
+jQuery("#yw2").treeview({});
+});
+/*]]>*/
+</script>
+</body>
+</html>
+";i:1;a:12:{i:0;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerCssFile";i:2;a:1:{i:0;s:36:"/assets/1c246d04/listview/styles.css";}}i:1;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:6:"jquery";}}i:2;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:3:"bbq";}}i:3;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerScriptFile";i:2;a:2:{i:0;s:47:"/assets/1c246d04/listview/jquery.yiilistview.js";i:1;i:2;}}i:4;a:3:{i:0;s:12:"clientScript";i:1;s:14:"registerScript";i:2;a:2:{i:0;s:13:"CListView#yw0";i:1;s:164:"jQuery('#yw0').yiiListView({'ajaxUpdate':[],'ajaxVar':'ajax','pagerClass':'pager','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});";}}i:5;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerScriptFile";i:2;a:2:{i:0;s:36:"/assets/6451972a/js/bootstrap.min.js";i:1;i:2;}}i:6;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerScriptFile";i:2;a:2:{i:0;s:26:"/assets/6451972a/js/app.js";i:1;i:2;}}i:7;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerScriptFile";i:2;a:2:{i:0;s:39:"/assets/6451972a/js/social-likes.min.js";i:1;i:2;}}i:8;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:1:{i:0;s:6:"cookie";}}i:9;a:3:{i:0;s:12:"clientScript";i:1;s:18:"registerCoreScript";i:2;a:2:{i:0;s:8:"treeview";i:1;i:2;}}i:10;a:3:{i:0;s:12:"clientScript";i:1;s:14:"registerScript";i:2;a:2:{i:0;s:17:"Yii.CTreeView#yw2";i:1;s:28:"jQuery("#yw2").treeview({});";}}i:11;a:3:{i:0;s:12:"clientScript";i:1;s:15:"registerCssFile";i:2;a:1:{i:0;s:45:"/assets/bee1f05d/treeview/jquery.treeview.css";}}}}i:1;N;}

@@ -8,5 +8,5 @@ Disallow: /assets/
 Disallow: /protected/
 Disallow: /themes/
 
-HOST: mygdz.pp.ua
-Sitemap: http://mygdz.pp.ua/sitemap.xml
+HOST: gdz5clas.pp.ua
+Sitemap: http://gdz5clas.pp.ua/sitemap.xml

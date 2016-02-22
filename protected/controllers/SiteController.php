@@ -262,7 +262,6 @@ public function actionBook( $clas, $subject, $book ){
 
 		$this->breadcrumbs = array(
 			'Головна'=>Yii::app()->homeUrl,
-			$clas . ' клас' => $this->createUrl('/'.$clas),
 			$this->subjectModel->title => $this->createUrl('/'.$clas.'/'.$subject),
 			$this->bookModel->author
 		);

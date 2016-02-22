@@ -80,6 +80,7 @@ public function actionIndex(){
 
 		$criteria = new CDbCriteria;
 		$criteria->condition = 't.public=1';
+		$criteria->addCondition('t.class_id='.Yii::app()->params['clasId']);
 		$criteria->addCondition('t.publish_date<'.time());
 
 		$books = new CActiveDataProvider('Textbook',array('criteria'=>$criteria,'pagination'=>array('pageSize'=>12,'pageVar'=>'p')));
@@ -98,6 +99,7 @@ public function actionIndex(){
  * @return [type] [description]
  */
 public function actionClas($clas){
+	throw new CHttpException('404', 'page not found');
 	$clas = str_replace('-clas', '', $clas);
 	// d();
 
@@ -193,7 +195,6 @@ public function actionSubject($clas, $subject){
 		$this->breadcrumbs = array(
 			'Головна'=>Yii::app()->homeUrl,
 			'Підручники'=>$this->createUrl('/textbook'),
-			$clas . ' клас' => $this->createUrl('/textbook/'.$this->clasModel->slug),
 			$this->subjectModel->name
 		);
 
@@ -231,7 +232,6 @@ public function actionBook( $clas, $subject, $book ){
 		$this->breadcrumbs = array(
 			'Головна'=>Yii::app()->homeUrl,
 			'Підручники'=>$this->createUrl('/textbook'),
-			$clas . ' клас' => $this->createUrl('/textbook/'.$this->clasModel->slug),
 			$this->subjectModel->name => $this->createUrl('/textbook/'.$this->clasModel->slug.'/'.$this->subjectModel->slug),
 			$this->bookModel->author
 		);

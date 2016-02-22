@@ -744,8 +744,9 @@ public function actionJewel(){
 }
 
 public function actionSitemap(){
-	$model = Clas::model()->findAll();
-	$this->render('sitemap',array('model'=>$model));
+	$model = Clas::model()->findByPk(Yii::app()->params['clasId']);
+	$model2 = TextbookClas::model()->findByPk(Yii::app()->params['clasId']);
+	$this->render('sitemap',array('clas'=>$model, 'clasT'=>$model2));
 }
 
 }

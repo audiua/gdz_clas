@@ -1,7 +1,6 @@
 <h1><?= $this->h1; ?></h1>
 
 <div class="description">
-	<? $this->subjectModel->description; ?>
 </div>
 
 <div class="separator"></div>

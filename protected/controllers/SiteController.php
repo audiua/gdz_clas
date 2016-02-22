@@ -85,7 +85,7 @@ public function actionIndex(){
 			$page = '';
 		}
 
-		$this->pageTitle = 'Готові домашні завдання '.$page;
+		$this->pageTitle = 'Готові домашні завдання '. Yii::app()->params['clas'].' клас ' .$page;
 		$this->keywords .= ', готові домашні завдання ' . Yii::app()->params['clas'].' клас';
 		$this->description .= ' для ' . Yii::app()->params['clas'].' класу';
 		$this->h1 .= Yii::app()->params['clas'].' класу';

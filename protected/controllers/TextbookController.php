@@ -239,7 +239,7 @@ public function actionBook( $clas, $subject, $book ){
 		);
 
 		$this->h1 = 'Підручник '.$clas.' клас '. $this->subjectModel->name . ' ' .$this->bookModel->author;
-		$this->pageTitle = $this->h1;
+		$this->pageTitle = $this->h1 . ' ' .$this->bookModel->year.' рік';
 		// $this->canonical = Yii::app()->createAbsoluteUrl('/gdz/'.$clas.'/'.$subject.'/'.$book);
 		// $this->setMeta();
 

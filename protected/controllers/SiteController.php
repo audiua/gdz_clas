@@ -86,8 +86,8 @@ public function actionIndex(){
 		}
 
 		$this->pageTitle = 'Готові домашні завдання '. Yii::app()->params['clas'].' клас ' .$page;
-		$this->keywords .= ', готові домашні завдання ' . Yii::app()->params['clas'].' клас';
-		$this->description .= ' для ' . Yii::app()->params['clas'].' класу';
+		$this->keywords .= ', готові домашні завдання ' . Yii::app()->params['clas'].' клас'.$page;
+		$this->description .= ' для ' . Yii::app()->params['clas'].' класу'.$page;
 		$this->h1 .= Yii::app()->params['clas'].' класу';
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 

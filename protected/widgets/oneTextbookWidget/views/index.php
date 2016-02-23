@@ -38,7 +38,10 @@ $path = 'images/gdz/'.$this->params['clas'].'/'.$this->params['subject'].'/'.$th
 		<div><small>мова навчання: </small><?php echo $this->model->lang; ?></div>
 		<?php endif; ?>
 
-		<div class=""><a target="_blank" href="<?= $this->model->getPdfLink(); ?>">Скачати підручник</a></div>
+		<div class="">
+		<?= SeoHide::link($this->model->getPdfLink(), 'Скачати підручник', array('target'=>'_blank')); ?>
+		<!-- <a target="_blank" href="<?= $this->model->getPdfLink(); ?>">Скачати підручник</a> -->
+		</div>
 		
 
 		<div class="social-likes">

@@ -76,8 +76,8 @@ public function actionIndex(){
 		}
 
 		$this->pageTitle = 'Підручники '. Yii::app()->params['clas'].' клас ' .$page;
-		$this->description .= ' для ' . Yii::app()->params['clas'].' класу';
-		$this->keywords .= ', підручники ' . Yii::app()->params['clas'].' клас';
+		$this->description .= ' для ' . Yii::app()->params['clas'].' класу'.$page;
+		$this->keywords .= ', підручники ' . Yii::app()->params['clas'].' клас'.$page;
 		$this->canonical = Yii::app()->createAbsoluteUrl('/');
 
 		$criteria = new CDbCriteria;

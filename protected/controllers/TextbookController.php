@@ -227,8 +227,8 @@ public function actionBook( $clas, $subject, $book ){
 		$this->subjectModel = $this->loadSubject($subject);
 		$this->bookModel = $this->loadBook($book);
 
-		$this->keywords = 'скачати підручник '.$this->clasModel->name . ' клас '. $this->subjectModel->name.' ' . $this->bookModel->author . ' ' . $this->bookModel->year.', підручники онлайн, скачати підручники ';
-		$this->description = 'підручник '.$this->clasModel->name . ' клас '. $this->subjectModel->name.' ' . $this->bookModel->author . ' ' . $this->bookModel->year;
+		$this->keywords = 'скачати підручник '.$this->clasModel->name . ' клас '. $this->subjectModel->name.' ' . $this->bookModel->author . ' ' . $this->bookModel->year.', підручники онлайн, скачати підручники , підручник isbn '.$this->bookModel->isbn;
+		$this->description = 'підручник '.$this->clasModel->name . ' клас '. $this->subjectModel->name.' ' . $this->bookModel->author . ' ' . $this->bookModel->year . ' / isbn-'. $this->bookModel->isbn ;
 
 
 		$this->breadcrumbs = array(
@@ -263,6 +263,10 @@ public function actionBook( $clas, $subject, $book ){
  * @return [type]       [description]
  */
 private function loadClas($clas){
+
+	if($clas != Yii::app()->params['clas']){
+		throw new CHttpException('404', 'not clas');
+	}
 
 	$clasModel = TextbookClas::model()->find('name=:clas',array(':clas'=>(int)$clas));
 	if( ! $clasModel ){
@@ -319,6 +323,10 @@ private function loadBook($book){
  * @return [type]       [description]
  */
 private function checkClas($clas){
+	if($clas != Yii::app()->params['clas']){
+		throw new CHttpException('404', 'not clas');
+	}
+
 	if( (int)$clas > 11 || (int)$clas < 5 ){
 		throw new CHttpException('404', 'немае такого класу');
 	}

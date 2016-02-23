@@ -201,7 +201,7 @@ public function actionSubject($clas, $subject){
 			. $this->subjectModel->title . ' ' .$clas.' клас, готові домашні завдання '. $this->subjectModel->title . ' ' .$this->clasModel->title.' клас, гдз '. $this->subjectModel->title . ' ' .$this->clasModel->title.' клас';
 
 		$this->description = 'ГДЗ - готові домашні завдання ' 
-			. $this->subjectModel->title . ' ' .$clas.' клас, для середніх загальноосвітніх шкіл України.';
+			. $this->subjectModel->title . ' ' .$clas;
 
 		// $this->h1 = 'ГДЗ '.(int)$clas.' клас '. $this->subjectModel->subject->title;
 		// $this->pageTitle = 'SHKOLYAR.INFO - '.$this->h1;
@@ -259,7 +259,7 @@ public function actionBook( $clas, $subject, $book ){
 			. $this->subjectModel->title . ' ' .$clas.' клас ' . $this->bookModel->author . ', готові домашні завдання '. $this->subjectModel->title . ' ' .$this->clasModel->title.' клас ' . $this->bookModel->author . ', гдз '. $this->subjectModel->title . ' ' .$this->clasModel->title.' клас ' . $this->bookModel->author . '';
 
 		$this->description = 'ГДЗ - готові домашні завдання ' 
-			. $this->subjectModel->title . ' ' .$clas.' клас ' . $this->bookModel->author . ', для середніх загальноосвітніх шкіл України.';
+			. $this->subjectModel->title . ' ' .$clas.' клас ' . $this->bookModel->author;
 
 
 		$this->breadcrumbs = array(
